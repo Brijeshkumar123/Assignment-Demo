@@ -1,0 +1,101 @@
+body{
+    background-color: #ccc;
+}
+.container-fluid ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.container-fluid ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+.container-fluid .logo{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid .logo h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.fillter{
+    /* box-shadow: 2px 2px 5px,-2px -2px 5px; */
+    background-color: #fff;
+    flex-basis: 35%;
+}
+.fillter h3{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: navy;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.fillter p{
+    color: navy;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.fillter #select-box{
+    margin-left: 25px;
+    /* margin-top: -50px; */
+    width: 70%;
+}
+.fillter form input[type='checkbox'],[type='radio']{
+    margin-left: 25px;
+    
+}
+.menu{
+    /* box-shadow: 2px 2px 5px,-2px -2px 5px;
+    background-color: #fff; */
+    flex-basis: 65%;
+}
+.menu .card-body h2{
+    color: navy;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.menu .card .col-md-4 h6{
+    color: navy;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.container h1{
+    color: navy;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.number{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number ul{
+    margin-top: 25px;
+
+}
+.number ul  li{
+    list-style: none;
+    display: inline;
+    padding: 8px;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-decoration: none;
+}
+.number ul  li:nth-child(2){
+    background-color: rgb(58, 61, 88);
+    color: #fff;
+}
